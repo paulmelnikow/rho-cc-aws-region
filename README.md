@@ -11,7 +11,7 @@ Usage
 
 ```js
 
-var awsRegion = require('rho-cc-aws-region');
+const awsRegion = require('rho-cc-aws-region');
 
 // Does not throw.
 awsRegion.check('us-east-1');

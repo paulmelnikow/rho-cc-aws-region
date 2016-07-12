@@ -1,12 +1,14 @@
-var awsRegion = require('./aws-region');
+'use strict';
 
-var c = require('rho-contracts');
+const awsRegion = require('./aws-region');
 
-var should = require('should');
+const c = require('rho-contracts');
+
+const should = require('should');
 
 // For convenience and conciseness.
-var good = should.doesNotThrow;
-var bad = function (block) { should.throws(block, c.ContractError); };
+const good = should.doesNotThrow;
+const bad = function (block) { should.throws(block, c.ContractError); };
 
 describe('awsRegion', function () {
 
