@@ -9,6 +9,13 @@ Check AWS region identifiers with [rho-contracts][].
 Usage
 -----
 
+You must use the Body Labs package, `rho-contracts-fork`:
+```js
+  "dependencies": {
+    "rho-contracts-fork": "^1.3.0"
+  }
+```
+
 ```js
 
 const awsRegion = require('rho-cc-aws-region');
@@ -29,7 +36,7 @@ Installation
 ------------
 
 ```sh
-npm install rho-contracts rho-cc-aws-region
+npm install rho-contracts-fork rho-cc-aws-region
 ```
 
 

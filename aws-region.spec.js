@@ -2,7 +2,7 @@
 
 const awsRegion = require('./aws-region');
 
-const c = require('rho-contracts');
+const c = require('rho-contracts-fork');
 
 const should = require('should');
 
